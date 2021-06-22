@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Meta Tag -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title></title>
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="__assets/lib/@bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__assets/lib/@icon-bootstrap/bootstrap-icons.css">
+    <link rel="stylesheet" href="__assets/css/form-validation.css">
+
+</head>
+<body>
+
+
+    <div class="project-wrapper">
+
+        <!-- Project Header -->
+        <div class="header mb-5">Javascript Form Validation Project</div>
+
+
+        <!-- Project Main Section -->
+        <div class="row mb-5">
+            <div class="col-sm-6 offset-sm-3">
+                
+                <form class="form p-4" id="form_submit">
+
+                    <h5 class="text-center mb-4">Form Validation</h5>
+                    
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="Full Name">
+                        <ul class="invalid-feedback mb-4">
+                            <li>Name should have at least 6 character !</li>
+                            <li>No number allowed in Name !</li>
+                            <li>No special character allowed in Name !</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="email" placeholder="Email">
+                        <ul class="invalid-feedback mb-4">
+                            <li>Invalid Email Address !</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="phone" placeholder="Phone">
+                        <ul class="invalid-feedback mb-4">
+                            <li>Invalid Phone Number !</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                        <ul class="invalid-feedback mb-4">
+                            <li>Password should have at least 8 character !</li>
+                            <li>Password should have at least one uppercase and lowercase letter !</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                        <ul class="invalid-feedback mb-4">
+                            <li>Password not Matched !</li>
+                        </ul>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Project Footer -->
+        <div class="footer d-flex justify-content-between">
+            <span>MD Imam Hossain</span>
+            <a href="https://github.com/mdimamhossain0049">GitHub</a>
+        </div>
+
+    </div>
+    
+
+    <!-- External JS File -->
+    <script src="__assets/lib/@jquery/jquery.js"></script>
+    <script src="__assets/lib/@bootstrap/js/bootstrap.min.js"></script>
+    <script src="__assets/js/form-validation.js"></script>
+
+    <script>
+        // Script Code Here
+    </script>
+    
+</body>
+</html>
